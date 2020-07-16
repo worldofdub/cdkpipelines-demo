@@ -1,4 +1,4 @@
-mport { CfnOutput, Construct, Stage, StageProps } from '@aws-cdk/core';
+import { CfnOutput, Construct, Stage, StageProps } from '@aws-cdk/core';
 import { CdkpipelinesDemoStack } from './cdkpipelines-demo-stack';
 
 /**
