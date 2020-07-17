@@ -60,7 +60,7 @@ export class CdkpipelinesDemoPipelineStack extends Stack {
   }));
 
     pipeline.addApplicationStage(new CdkpipelinesDemoStage(this, 'Prod', {
-      env: { account: '877908802740', region: 'ap-southeast-2' }
+      env: { account: '228774034509', region: 'ap-southeast-2' }
     }));
 
   }
